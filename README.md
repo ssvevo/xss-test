@@ -10,10 +10,7 @@ xss
 
 ```
 
-<!-- xss-Here -->
-<!-- xss-Here -->
-<!-- xss-Here -->
-<!-- /xss-@Here() -->
+<!-- Project Name  : Cross Site Scripting ( XSS ) Vulnerability Payload List -->
 
 <IFRAME SRC="javascript:javascript:alert(document.domain);"></IFRAME>
 
