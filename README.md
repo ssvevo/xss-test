@@ -2,10 +2,9 @@
 xss
 
 
-
 ```
   
-<!--   :  :// . . / /sagaryadav8742/ -->
+<!--      TEST : https://www.linkedin.com/in/sagaryadav8742/ -->
 
 <IFRAME SRC="javascript:javascript:alert(document.domain);"></IFRAME>
 
